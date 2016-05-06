@@ -18,6 +18,8 @@ public class DataController
 		System.out.println(dishes.size());
 		dishes.pop();
 		dishes.push(new Dish(false, java.awt.Color.MAGENTA, 17));
+		dishes.push(new Dish(true, java.awt.Color.GRAY, 17));
+		
 	}
 	
 	private void useTheCustomerQueue()

@@ -14,5 +14,21 @@ public class Dish
 		this.color = color;
 		this.radius = radius;
 	}
+	
+	public boolean isDirty()
+	{
+		return isDirty;
+	}
+	
+	public Color color()
+	{
+		return color;
+	}
+	
+	public int radius()
+	{
+		return radius;
+	}
+
 
 }
