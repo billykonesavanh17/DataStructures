@@ -20,7 +20,7 @@ public class Customer
 	
 	public String name()
 	{
-		return "";
+		return "Bobby";
 	}
 	
 	public double total()
