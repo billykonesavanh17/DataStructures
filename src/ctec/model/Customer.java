@@ -20,12 +20,12 @@ public class Customer
 	
 	public String name()
 	{
-		return "Bobby";
+		return "";
 	}
 	
 	public double total()
 	{
-		return 54;
+		return total;
 	}
 
 }
