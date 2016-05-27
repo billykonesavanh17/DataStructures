@@ -25,8 +25,14 @@ public class DataController
 	private void useTheCustomerQueue()
 	{
 		customerQueue = new LinkedList<Customer>();
-		customerQueue.add(new Customer(false, "", 3234.3));
+		customerQueue.add(new Customer(false, "Bob", 3234.3));
 		customerQueue.remove();
+		customerQueue.peek();
+		customerQueue.add(new Customer(true, "Peter", 6969));
+		customerQueue.add(new Customer(true, "Jonny", 7000));
+		customerQueue.peek();
+		customerQueue.remove();
+		
 	}
 	
 	public void start()
